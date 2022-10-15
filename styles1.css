@@ -1,0 +1,35 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.key {
+    font-size: 50px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border: 5px solid black;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    padding: 20px;
+    transition:all 0.05s;
+    display: flex;
+    flex-direction: column;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+.sound {
+    font-size: medium;
+}
